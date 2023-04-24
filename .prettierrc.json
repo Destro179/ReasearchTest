@@ -1,0 +1,27 @@
+{
+  "trailingComma": "es5",
+  "useTabs": false,
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "*.test.js",
+      "options": {
+        "semi": true
+      }
+    },
+    {
+      "files": [
+        "*.html",
+        "legacy/**/*.js"
+      ],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
