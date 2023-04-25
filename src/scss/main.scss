@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//@import 'base/variables';
+@import 'base/fonts';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/quasar';
+@import 'base/quasar_light';
+@import 'base/quasar_dark';
+// Import icon libraries
+@import '@quasar/extras/material-icons/material-icons.css';
+@import 'components/risk-return-grid';
+// Import Quasar css
+@import 'quasar/src/css/index.sass';

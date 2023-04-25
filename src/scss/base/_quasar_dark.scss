@@ -1,0 +1,71 @@
+body.body--dark {
+    color: $blue-grey-6 !important;
+    .q-layout__section--marginal {
+        color: $white !important;
+    }
+    a:hover {
+        color: $white;
+    }
+    #universeDropdown.q-btn {
+        color: $white;
+    }
+    .q-list--dark,
+    .q-item--dark {
+        color: $blue-grey-6;
+        &.q-item--active {
+            color: $primary;
+        }
+    }
+    #loginBox {
+        color: $white !important;
+        h3 {
+            color: $white;
+        }
+    }
+    #searchAll {
+        .q-expansion-item {
+            .q-icon {
+                @apply text-white;
+            }
+            .q-item__label {
+                @apply text-white;
+            }
+        }
+    }
+    .q-table__card {
+        color: $white !important;
+    }
+    .q-table {
+        th {
+            @apply text-blue-grey-8;
+            &.sorted {
+                color: $white !important;
+            }
+        }
+        &--dark tbody td:before {
+            background: rgba(36, 36, 43, 0.4);
+        }
+    }
+    .q-card {
+        background: $grey-10 !important;
+        a,
+        a:visited {
+            color: $white;
+        }
+    }
+    .riskReturnGrid {
+        &::before,
+        &::after {
+            color: $blue-grey-6;
+        }
+        .square {
+            @apply border-separator-dark-color;
+            @apply bg-grey-9;
+        }
+    }
+    #sideBar {
+        .q-card {
+            color: $blue-grey-6 !important;
+        }
+    }
+}

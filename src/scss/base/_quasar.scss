@@ -1,0 +1,107 @@
+.q-toolbar__title {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+.logo-wrapper {
+    margin-left: 4px;
+}
+.q-item,
+.q-expansion-item {
+    .q-focus-helper {
+        visibility: hidden;
+    }
+}
+.q-header .q-toolbar {
+    min-height: 70px;
+}
+.hover\:text-primary:hover {
+    color: $primary !important;
+}
+/* Buttons */
+.q-btn {
+    &.no-hover {
+        &.q-hoverable .q-focus-helper {
+            display: none;
+        }
+    }
+    &.w-full {
+        width: 100% !important;
+    }
+    &#universeDropdown {
+        padding-left: 0 !important;
+    }
+}
+.q-btn__content {
+    font-weight: 600;
+    text-transform: none;
+}
+
+/* Sidebar */
+#searchAll {
+    .q-field--dense .q-field__label {
+        font-size: 11px;
+    }
+    .q-expansion-item {
+        .q-item {
+            padding: 8px 0;
+            @apply pl-3;
+        }
+        .q-item__section--main ~ .q-item__section--side {
+            padding-left: 10px;
+        }
+        .q-item__label {
+            @apply font-semibold;
+        }
+    }
+}
+#sideBar {
+    .q-item {
+        .q-item__section {
+            font-weight: 400 !important;
+        }
+        &--active {
+            .q-item__section {
+                font-weight: 600 !important;
+            }
+            &::before {
+                content: '';
+                display: block;
+                width: 3px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                @apply bg-primary;
+            }
+        }
+    }
+    .q-card {
+        background: transparent !important;
+    }
+}
+
+/* Tables */
+.q-table {
+    th {
+        @apply uppercase;
+        font-size: 0.7rem !important;
+        font-weight: 600 !important;
+        @apply tracking-wide;
+    }
+    th,
+    td {
+        padding: 6px !important;
+    }
+    td.q-td {
+        cursor: pointer;
+    }
+    /*
+    tbody td:before {
+        display: none;
+    }*/
+}
+
+.q-table__bottom {
+    padding: 4px 6px !important;
+}

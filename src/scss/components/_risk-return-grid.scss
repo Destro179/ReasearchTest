@@ -1,0 +1,42 @@
+.riskReturnGridContainer {
+    .riskReturnValue {
+        padding-bottom: 20px;
+    }
+    .riskReturnGrid {
+        padding-left:20px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+        position: relative;
+        width: 55%;
+        &::before {
+            @apply absolute;
+            content:"- RTN +";
+            @apply uppercase;
+            @apply font-semibold;
+            @apply text-xxs;
+            left:-10px;
+            top:40%;
+            transform: translateY(-50%) rotate(270deg);
+        }
+        &::after {
+            @apply absolute;
+            content:"+ RISK -";
+            @apply uppercase;
+            @apply font-semibold;
+            @apply text-xs;
+            bottom:0;
+            left:20px;
+            right: 15px;
+            text-align: center;
+        }
+        .square {
+            @apply border-2;
+            @apply w-2/6;
+            &::after {
+                content: "";
+                display: block;
+                padding-bottom: 100%;
+            }
+        }
+    }
+}

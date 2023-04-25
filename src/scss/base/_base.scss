@@ -1,0 +1,59 @@
+html,
+body {
+    @apply h-full;
+}
+
+#app {
+    @apply overflow-x-hidden;
+    @apply h-full;
+}
+*,
+::before,
+::after {
+    @apply border-grey-5;
+}
+textarea,
+select,
+input,
+button {
+    &:focus {
+        @apply outline-none;
+    }
+}
+
+.h-screen-excludingheader {
+    height: calc(100vh - 70px);
+}
+.tabletShow {
+    display: none;
+}
+.tabletHide {
+    display: block;
+}
+@media (max-width: 1025px), screen and (max-device-width: 1025px) {
+    .tabletShow {
+        display: block;
+    }
+    .tabletHide {
+        display: none;
+    }
+    .q-drawer--standard {
+        display: none !important;
+    }
+}
+
+.mobileShow {
+    display: block;
+}
+
+.mobileHide {
+    display: none;
+}
+@media (max-width: 767px), screen and (max-device-width: 767px) {
+    .mobileShow {
+        display: block;
+    }
+    .mobileHide {
+        display: none;
+    }
+}

@@ -1,0 +1,65 @@
+h1 {
+    @apply text-4xl;
+    @apply text-black;
+    @apply font-semibold;
+    @apply tracking-wide;
+}
+
+h2 {
+    @apply text-3xl;
+    @apply text-black;
+    @apply font-semibold;
+}
+
+h3 {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+}
+
+h4 {
+    @apply text-xl;
+    @apply text-black;
+    @apply font-semibold;
+}
+
+h5 {
+    @apply text-lg;
+    @apply text-black;
+}
+
+h6 {
+    @apply text-base;
+    @apply text-black;
+}
+
+/*
+p,
+i,
+strong,
+li,
+a,
+div {
+    @apply text-sm;
+    @apply text-grey-1;
+
+    @media screen and (min-width: 1024px) {
+        @apply text-base;
+    }
+}
+*/
+body {
+    @apply text-sm;
+    @apply text-grey-10;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    @media screen and (min-width: 1024px) {
+        @apply text-base;
+    }
+}
+a,
+a:visited {
+    color: $primary;
+    cursor: pointer;
+}

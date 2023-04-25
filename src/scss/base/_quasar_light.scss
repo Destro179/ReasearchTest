@@ -1,0 +1,74 @@
+.q-table__card {
+    color: $grey-9 !important;
+}
+
+body.body--light {
+    color: $grey-9 !important;
+    .text-blue-grey-6 {
+        color: $grey-5 !important;
+    }
+    .menuIcon {
+        color: $grey-9;
+    }
+    .q-layout__section--marginal {
+        color: $grey-10 !important;
+    }
+    #searchAll {
+        .q-expansion-item {
+            .q-icon {
+                @apply text-grey-9;
+            }
+            .q-item__label {
+            }
+        }
+    }
+    .q-table {
+        th {
+            @apply text-blue-grey-8;
+            &.sorted {
+                color: $white !important;
+            }
+        }
+        /*
+        tbody td:before {
+            background: rgba(36, 36, 43, 0.02);
+        }*/
+        thead,
+        tr,
+        th,
+        td {
+            border-color: $grey-2 !important;
+        }
+    }
+    .q-separator.bg-grey-10 {
+        background: $grey-2 !important;
+    }
+    .q-table__bottom {
+        border-color: $grey-2 !important;
+    }
+    .q-card {
+        background: $grey-1 !important;
+    }
+    .riskReturnGrid {
+        &::before,
+        &::after {
+            color: $blue-grey-6;
+        }
+        .square {
+            @apply border-separator-dark-color;
+            @apply bg-grey-9;
+        }
+    }
+    #sideBar {
+        .q-list,
+        .q-item {
+            color: $grey-9;
+            &.q-item--active {
+                color: $primary;
+            }
+        }
+        .q-card {
+            color: $grey-9 !important;
+        }
+    }
+}

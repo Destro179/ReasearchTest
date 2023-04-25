@@ -1,0 +1,31 @@
+// src/css/quasar.variables.scss
+
+$primary: #54c0e8; // #50d0ff; //User can select palette 'primary'
+$secondary: #26a69a;
+$accent: #9c27b0;
+
+$white: #ffffff;
+
+$dark: #1d1d20;
+$dark-page: #1d1d20;
+$separator-dark-color: #24242b;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+
+$typography-font-family: 'museo sans', sans-serif;
+
+$grey-9: #2d2d37 !default;
+$grey-10: $separator-dark-color;
+
+$blue-grey-1: $grey-9;
+$blue-grey-2: #a2aada !default;
+$blue-grey-6: #838b93 !default; // (menu/subtext grey on details pg)
+$blue-grey-8: #556b80; //User can select palette 'grey 1' (th/subtext greys)
+
+$input-font-size: 13px !default;
+$input-text-color: $blue-grey-6;
+
+//$generic-hover-transition: none

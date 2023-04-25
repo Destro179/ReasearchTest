@@ -1,0 +1,38 @@
+// Colors from tailwind
+$white: #ffffff;
+$black: #303446;
+$grey-1: #60656D;
+$grey-2: #B8CAD4;
+$grey-3: #B3B9BA;
+$grey-4: #EEF0F1;
+$grey-5: #F0F5F9;
+$grey-6: #ECEFF3;
+$grey-8: #FAFBFD;
+
+$screen-sm: 640px;
+
+
+$box-shadow: rgba(207, 212, 215, 0.2);
+
+
+$red: #E80729;
+$green: #29AC64;
+
+$primary: #5D8096;
+$primary-light: #26A9E1;
+$primary-lightest: #EEFAFF;
+$primary-grad-bright: #89E0FF;
+
+// Element variables
+// Brand colour
+$--color-text-primary: $grey-1;
+$--color-primary: $primary-light;
+$--border-color-light: $grey-4;
+$--border-color-base: $grey-4;
+
+$--color-success: $green;
+$--color-danger: $red;
+
+$font-display: Pt Sans, sans-serif;
+
+$green-light: #EFFFF1;
